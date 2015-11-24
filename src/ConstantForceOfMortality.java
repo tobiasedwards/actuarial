@@ -8,6 +8,8 @@ public class ConstantForceOfMortality implements MortalityDelegate {
   /** The force of mortality */
   private double force;
 
+  // -- Constructor
+
   /**
    * Creates a new instance of the class with a given force of MortalityDelegate
    *
@@ -16,6 +18,8 @@ public class ConstantForceOfMortality implements MortalityDelegate {
   public ConstantForceOfMortality(double force) {
     this.force = force;
   }
+
+  // -- MortalityDelegate
 
   /**
    * Returns the probability that a life aged x will survive for one year.
