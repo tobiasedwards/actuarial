@@ -74,7 +74,7 @@ Static Methods:
 
 Instance Methods:
 - `double getEffectiveRate()`
-- `double getNominal(int period)`
+- `double getNominalRate(int period)`
 - `double getForceOfInterest()`
 - `double discountFactor()`
 - `double discountFactor(int time)`
